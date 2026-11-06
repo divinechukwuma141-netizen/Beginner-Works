@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Layout</title>
+    <link rel="stylesheet" href="Layout.css" />
+    <script src="Layout.js" defer></script>
+</head>
+<body>
+    <!-- This talks about the navbar -->
+    <header class="site-header">
+        <nav class="nav-bar">
+            <div class="nav-links">
+                <a href="#section">About</a>
+                <a href="#library">Library</a>
+                <a href="#">Our Team</a>
+            </div>
+
+            <div class="search-wrap">
+                <input type="text" name="search" placeholder="Search books.." />
+            </div>
+
+            <a class="contact-link" href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-overlay">
+            <h1>Read yet <span>again</span>.</h1>
+        </div>
+        <img src="Solitude.jpg" alt="Books on a shelf" />
+    </section>
+
+    <section class="books-section">
+        <div class="books-grid">
+            <div class="book-card"><img src="https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/08/5552614/1.jpg?6191" alt="Book cover 1" /></div>
+            <div class="book-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSK8T7VfSoLbpKMJQvYPOmTMECuE_SrSlbrEc_70xTLQ&s=10" alt="Book cover 2" /></div>
+            <div class="book-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQISpXYJzZefsDlEKwwX4p1ig9sIlnbvOw768cO_xeNIg&s=10" alt="Book cover 3" /></div>
+            <div class="book-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb25L-JR6Dx7ol0-wXOO582-0TmRyK6S6TJ8l9Q0jpyQ&s=10" alt="Book cover 4" /></div>
+            <div class="book-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSprlpIx1oyfg53yqpkHmK87nYvIV-UA1yBjq1KczoSGg&s=10" alt="Book cover 5" /></div>
+            <div class="book-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ45Q9PDTzuqARnFN7vhNUpHLt6ryHfuiSVd_oCmGPorQ&s=10" alt="Book cover 6" /></div>
+            <div class="book-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDxSHq4jNqvDDxo6TryjvBLzq_6QQpYdXqqH1s3cPK1g&s=10" alt="Book cover 7" /></div>
+            <div class="book-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdBITwBXPNWyy8E7Ym80bFlyHYSwFzxueumk9JEt0HTA&s=10" alt="Book cover 8" /></div>
+        </div>
+    </section>
+
+    <section class="aboutUs">
+        About Us
+    </section>
+
+    <section id="section">
+        <div id="last">
+        <div class="About"><img src="bookwise.jpg" alt=""></div>
+        <div>
+            <h2>Welcome to the BookWise Library! <br>
+            BookWise Library is a digital haven where you can explore a vast collection of books from various genres, authors, and styles. Our mission is to make reading accessible to everyone, providing a space for discovery, education, and relaxation.
+            </h2>
+            <hr>
+        </div>
+       </div>
+
+        <div id="last2">
+        <div>
+            <h2><i>We Offer</i><br>
+            <span class="diverse">Diverse Genre Selection</span>: From classic literature to contemporary bestsellers, our library encompasses every type of book to satisfy every reader's taste. <br>
+            <span class="diverse">User-Friendly Interface:</span> Our intuitive platform makes it easy for you to browse, search, and discover new titles. <br>
+           <span class="diverse">Accessibility:</span> We ensure that our website is accessible to all, including those with disabilities, providing an inclusive reading experience.
+            </h2>
+            <hr>
+        </div>
+        <div class="Offer"><img src="Student holding book.jpg" alt=""></div>
+        </div>
+
+        <div id="last2">
+        <div class="About"><img src="s hours.jpg" alt=""></div>
+        <div>
+            <h2>How We Work<br>
+            <span class="diverse">Curation:</span> Our team of librarians and literary enthusiasts curate a wide range of books, ensuring that our collection is diverse and engaging.<br>
+            <span class="diverse">Continuous Updates:</span> We regularly update our inventory with new releases and classics, keeping our library fresh and relevant.<br>
+            <span class="diverse">Feedback and Improvement:</span> We value your feedback and use it to improve our service, ensuring that you have the best possible experience.
+            </h2>
+            <hr>
+        </div>
+       </div>
+    </section>
+
+    <section id="library" class="library">
+        <h1 class="aboutUs">Our Library</h1>
+        <p id="favorite-status" class="favorite-status" role="status" aria-live="polite"></p>
+
+        <section class="document-card">
+            <h2>Introduction to Computing</h2>
+            <img src="Cover.png" alt="Introduction to Computing">
+            <h2>Healing The Sick by Tl Osborn</h2>
+            <button class="favorite-button" type="button" data-book-id="healing-the-sick-1" aria-pressed="false">Add to favorites</button>
+            <p>PDF Document</p>
+            <a href="Healing The sick - Tl Osborn.pdf" download>Download PDF</a>
+        </section>
+
+        <section class="document-card">
+            <h2>Introduction to Computing</h2>
+            <img src="Cover.png" alt="Introduction to Computing">
+            <h2>Healing The Sick by Tl Osborn</h2>
+            <button class="favorite-button" type="button" data-book-id="healing-the-sick-2" aria-pressed="false">Add to favorites</button>
+            <p>PDF Document</p>
+            <a href="Healing The sick - Tl Osborn.pdf" download>Download PDF</a>
+        </section>
+
+        <section class="document-card">
+            <h2>Introduction to Computing</h2>
+            <img src="Cover.png" alt="Introduction to Computing">
+            <h2>Healing The Sick by Tl Osborn</h2>
+            <button class="favorite-button" type="button" data-book-id="healing-the-sick-3" aria-pressed="false">Add to favorites</button>
+            <p>PDF Document</p>
+            <a href="Healing The sick - Tl Osborn.pdf" download>Download PDF</a>
+        </section>
+
+        <section class="document-card">
+            <h2>Introduction to Computing</h2>
+            <img src="Cover.png" alt="Introduction to Computing">
+            <h2>Healing The Sick by Tl Osborn</h2>
+            <button class="favorite-button" type="button" data-book-id="healing-the-sick-4" aria-pressed="false">Add to favorites</button>
+            <p>PDF Document</p>
+            <a href="Healing The sick - Tl Osborn.pdf" download>Download PDF</a>
+        </section>
+
+        <section class="document-card">
+            <h2>Introduction to Computing</h2>
+            <img src="Cover.png" alt="Introduction to Computing">
+            <h2>Healing The Sick by Tl Osborn</h2>
+            <button class="favorite-button" type="button" data-book-id="healing-the-sick-5" aria-pressed="false">Add to favorites</button>
+            <p>PDF Document</p>
+            <a href="Healing The sick - Tl Osborn.pdf" download>Download PDF</a>
+        </section>
+
+        <section class="document-card">
+            <h2>Introduction to Computing</h2>
+            <img src="Cover.png" alt="Introduction to Computing">
+            <h2>Healing The Sick by Tl Osborn</h2>
+            <button class="favorite-button" type="button" data-book-id="healing-the-sick-6" aria-pressed="false">Add to favorites</button>
+            <p>PDF Document</p>
+            <a href="Healing The sick - Tl Osborn.pdf" download>Download PDF</a>
+        </section>
+
+        <section class="document-card">
+            <h2>Introduction to Computing</h2>
+            <img src="Cover.png" alt="Introduction to Computing">
+            <h2>Healing The Sick by Tl Osborn</h2>
+            <button class="favorite-button" type="button" data-book-id="healing-the-sick-7" aria-pressed="false">Add to favorites</button>
+            <p>PDF Document</p>
+            <a href="Healing The sick - Tl Osborn.pdf" download>Download PDF</a>
+        </section>
+
+        <section class="document-card">
+            <h2>Introduction to Computing</h2>
+            <img src="Cover.png" alt="Introduction to Computing">
+            <h2>Healing The Sick by Tl Osborn</h2>
+            <button class="favorite-button" type="button" data-book-id="healing-the-sick-8" aria-pressed="false">Add to favorites</button>
+            <p>PDF Document</p>
+            <a href="Healing The sick - Tl Osborn.pdf" download>Download PDF</a>
+        </section>
+        <hr>
+    </section>
+</body>
+</html>
+
+            

@@ -1,0 +1,49 @@
+img {
+    width: 300px;
+    height: 400px;
+}
+.text {
+    background-color: black;
+    color: wheat;
+    padding: 5px;
+    border-radius: 5px;
+    visibility: hidden;
+    top: -5px;
+    left: 110%; 
+}
+img :hover .text {
+    visibility: visible;
+}
+
+img .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 110%;
+}
+.read {
+    font-size: 20px;
+    color: red;
+}
+a {
+    text-decoration: none;
+    border: 5px black;
+    box-shadow: 2px 2px tomato;
+    background-color: red;
+    padding: 10px 15px;
+    color: white;
+}
+p {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    text-align: justify;
+}
