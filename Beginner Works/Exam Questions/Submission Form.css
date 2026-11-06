@@ -1,0 +1,76 @@
+body{
+    min-height: 100vh;
+    position: relative;
+    isolation: isolate;
+    min-height: 100vh;
+    margin: 5px 0px;
+    padding: 8px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+}
+#home{
+    margin-left: 5px;
+}
+#body{
+    display: flex;
+}
+.navbar{
+    border-radius: none;
+    background-color: rgb(163, 208, 228);
+    width: 100%;
+    padding: 0px 2px;
+}
+#buttons{
+    padding: 8px 1px;
+    margin: 10px 15px;
+    size: 50px;
+    color: rgb(228, 152, 10);
+    background-color: rgb(5, 5, 71);
+    font-size: 40px;
+    outline: 50px red;
+    text-align: center;
+}
+input{
+    width: 50px;
+    height: 30px;
+    color: rgb(247, 247, 247);
+    background-color: rgb(231, 127, 29);
+    border: none;
+    padding: 5px;
+    margin: 10px 5px;
+}
+input:hover{
+    background-color: rgb(216, 212, 6);
+}
+img{
+    width: 350px;
+    border-radius: 8px;
+    margin: 20px;
+}
+#too{
+     border: none;
+     outline-style: solid;
+     outline-color: rgb(0, 60, 255);
+     padding: 5px;
+     margin: 15px;
+     outline-width: 2px;
+     border-radius: 5px;
+}
+h1{
+    margin-top: 10px;
+    background-color: rgb(68, 112, 207);
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: rgb(146, 5, 151);
+    font-size: 20px;
+}

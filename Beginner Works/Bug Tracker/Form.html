@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form webpage</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <center>
+    <div id="qui" class="card">
+        <center>
+            <div id="first" class="bug-card">
+            <table id="head">
+                <tr>
+                    <th><h1>Bug Tracker</h1></th>
+                </tr>
+                <tr>
+                    <td>Report all Bugs!</td>
+                </tr>
+            </table>
+            </div>
+        </center>
+        <br>
+
+        <div class="bug-card2">
+        <form>
+            <label for="text"><h3>Bug Title</h3></label>
+            <p>
+            <input type="text" required></p><br><br>
+
+            <label for="text"><h3>Issue Description</h3></label>
+           <p><input type="text" required></p><br><br>
+
+            <label for="options"><h3>Operating System</h3></label>
+            <input list="OS" name="Operating systems">
+            <datalist id="OS">
+            <input type="search" name="Search" id="search">
+            <option value="Windows 7">
+            <option value="Windows 8">
+            <option value="Windows 9">
+            <option value="Windows 10">
+            <option value="Windows 11">
+            <option value="Mac OS X">
+            <option value="Linux">
+            <option value="Other">
+            </datalist><br>
+
+            <div class="bug-card4">
+            <table id="sa">
+                <tr><th>
+            <label
+            for="Browers"><h3>Browser</h3></label><p></th></tr>
+            <tr><td class="t"><input  type="radio" name="Browser" value="Bro">Internet Explorer</td></tr><br>
+           <tr><td class="t"><input class="3t" type="radio" name="Browser" value="Bro">Chrome</td></tr><br>
+            <tr><td class="t"><input type="radio" name="Browser" value="Bro">Firefox</td></tr><br> 
+            <tr><td class="t"><input type="radio" name="Browser" value="Bro">Safari</td></tr><br>
+            <tr><td class="t"><input type="radio" name="Browser" value="Bro">Opera</td></tr><br>
+            <tr><td class="t"><input type="radio" name="Browser" value="Bro">Other</td></tr></p>
+            </table>
+            </div><br><br>
+
+            <div class="bug-card5"><label for="User"><h3>Assigned To</h3></label><br>
+            <select id="country" name="country" required>
+            <option value="ng">User A</option>
+            <option value="gh">User B</option>
+            <option value="ke">User C</option>
+            </select><br>
+            <div style="height: 2px; background: white; max-width: 50%; margin: 7px;"></div><br>
+
+            <label for="User"><h3>Priority</h3></label><br>
+            <select id="How" name="Priority" required>
+            <option value="ng">Low</option>
+            <option value="gh">Medium</option>
+            <option value="ke">High</option>
+            </select>
+            <div style="height: 2px; background: white; max-width: 50%; margin: 7px;"></div><br>
+            
+            <label for="Screenshot"><h3>Screenshot</h3></label><br>
+            <input type="file" name="Choose File" id="File">
+            <div style="height: 2px; background: white; max-width: 50%; margin: 15px;"></div><br>
+
+            <label for="User"><h3>Status</h3></label><br>
+            <select id="status" name="Status" required>
+            <option value="ng">Open</option>
+            <option value="gh">In Progress</option>
+            <option value="ke">Closed</option>
+            </select>
+            <div style="height: 2px; background: white; max-width: 50%; margin: 7px;"></div><br><br>
+
+            <center>
+                <input class="submit" type="submit" value="Submit">
+            </center></div>
+
+        </form>
+        </div>
+    </div>
+    </center>
+</body>
+</html>
